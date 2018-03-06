@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Japan Trivia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    
+   
+</head>
+<body>
+    <div id="barba-wrapper">
+        <div class="barba-container">
+            <div class="mywrapper">
+                <div id="resultbuttondiv">
+                <button id="resultbutton">See Results</button>
+                </div>
+                <div id="lost">
+                    <h1>You lost!</h1>
+                    <p id="lostmessage"></p>
+                    <a href="selectplayer.html"><button class="btn">TRY AGAIN</button></a>
+                    <a href="thankyou.html"><button class="btn">EXIT</button></a>
+                </div>
+                <div id="won">
+                    <h1>CONGRATULATIONS!</h1>
+                    <p>You win!</p>
+                    <a href="thankyou.html"><button class="btn">EXIT</button></a>
+                    <div id="origami"><img src="img/origami.svg" alt=""></div>
+                    <div id="sakura"><img src="img/sakura.svg" alt=""></div>
+                </div>
+                <div id="game">
+                    <div id="gamebg">
+                    <img src="img/pagoda.svg" alt="">
+                    </div>
+                    <div id="progress">
+                     <img src="img/flower.svg" id="flower0" alt="" class="flower">
+                     <img src="img/flower.svg" id="flower1" alt="" class="flower">
+                     <img src="img/flower.svg" id="flower2" alt="" class="flower">
+                     <img src="img/flower.svg" id="flower3" alt="" class="flower">
+                     <img src="img/flower.svg" id="flower4" alt="" class="flower">
+                     <img src="img/flower.svg" id="flower5" alt="" class="flower">
+                     <img src="img/flower.svg" id="flower6" alt="" class="flower">
+                     <img src="img/flower.svg" id="flower7" alt="" class="flower">
+                     <img src="img/flower.svg" id="flower8" alt="" class="flower">
+                     <img src="img/flower.svg" id="flower9" alt="" class="flower">
+                    </div>
+                    <div id="shiba">
+                    <img class="character" src="img/shiba/red_neutral.svg" id="shibaplayer" alt="">
+                    </div>
+                    <div id="trivia">
+                        <h1 id="triviaquest"></h1>
+                        <form id="triviaform">
+                            <input type="text" id="triviaans">
+                            <input type="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1164.804 2561.681 1164.787 1054.319">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.701;
+      }
+
+      .cls-2 {
+        fill: #f7cfa1;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #c1272d;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        fill: #b02c51;
+      }
+    </style>
+  </defs>
+  <g id="pagoda_1_" class="cls-1" transform="translate(1164.804 2561.681)">
+    <rect id="Rectangle_6" data-name="Rectangle 6" class="cls-2" width="110.468" height="105.594" transform="translate(693.674 479.236) rotate(180)"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" class="cls-2" width="186.821" height="110.468" transform="translate(770.027 813.889) rotate(180)"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-2" width="186.821" height="110.468" transform="translate(396.385 703.421)"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" class="cls-2" width="110.468" height="105.594" transform="translate(472.738 373.642)"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-3" width="16.245" height="58.483" transform="translate(501.979 398.01)"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-3" width="16.245" height="58.483" transform="translate(487.359 734.287)"/>
+    <line id="Line_7" data-name="Line 7" class="cls-3" y2="105.594" transform="translate(564.524 373.642)"/>
+    <line id="Line_8" data-name="Line 8" class="cls-3" y2="105.594" transform="translate(583.206 372.829)"/>
+    <line id="Line_9" data-name="Line 9" class="cls-3" y2="105.594" transform="translate(545.842 373.642)"/>
+    <line id="Line_10" data-name="Line 10" class="cls-3" x2="37.364" transform="translate(545.842 425.627)"/>
+    <line id="Line_11" data-name="Line 11" class="cls-3" x2="35.74" transform="translate(545.842 398.01)"/>
+    <line id="Line_12" data-name="Line 12" class="cls-3" x2="35.74" transform="translate(546.654 453.244)"/>
+    <line id="Line_13" data-name="Line 13" class="cls-3" y2="111.28" transform="translate(558.026 702.609)"/>
+    <line id="Line_14" data-name="Line 14" class="cls-3" y2="111.28" transform="translate(582.394 702.609)"/>
+    <line id="Line_15" data-name="Line 15" class="cls-3" y2="111.28" transform="translate(532.846 702.609)"/>
+    <line id="Line_16" data-name="Line 16" class="cls-3" x2="49.548" transform="translate(532.846 760.28)"/>
+    <line id="Line_17" data-name="Line 17" class="cls-3" x2="49.548" transform="translate(532.846 732.663)"/>
+    <line id="Line_18" data-name="Line 18" class="cls-3" x2="48.736" transform="translate(533.658 787.897)"/>
+    <line id="Line_19" data-name="Line 19" class="cls-3" y2="22.743" transform="translate(520.499 479.236)"/>
+    <line id="Line_20" data-name="Line 20" class="cls-3" y2="22.743" transform="translate(494.994 813.889)"/>
+    <path id="Path_96" data-name="Path 96" class="cls-4" d="M447.211,130.479l13-30.866C401.725,136.977,387.1,59,387.1,59S372.483,136.977,314,99.613l13,30.866H349.74v13H330.245l8.123,19.494H435.84l8.123-19.494H424.468v-13Z" transform="translate(196.102 36.847)"/>
+    <path id="Path_97" data-name="Path 97" class="cls-2" d="M373.364,123H336v22.743h74.728V123Z" transform="translate(209.842 76.817)"/>
+    <path id="Path_98" data-name="Path 98" class="cls-4" d="M595.389,226.349C540.155,179.238,488.17,137,488.17,137H413.442s-51.985,42.238-107.219,89.349S212,234.472,212,234.472c17.87,42.238,69.855,35.74,69.855,35.74v17.87h337.9v-17.87s51.985,6.5,69.855-35.74C689.612,234.472,650.623,273.46,595.389,226.349Z" transform="translate(132.4 85.56)"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" class="cls-3" width="16.245" height="58.483" transform="translate(664.432 456.493) rotate(180)"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" class="cls-3" width="16.245" height="58.483" transform="translate(679.053 792.77) rotate(180)"/>
+    <line id="Line_21" data-name="Line 21" class="cls-3" y2="105.594" transform="translate(601.888 373.642)"/>
+    <line id="Line_22" data-name="Line 22" class="cls-3" y2="105.594" transform="translate(620.57 373.642)"/>
+    <line id="Line_23" data-name="Line 23" class="cls-3" x1="35.74" transform="translate(584.018 453.244)"/>
+    <line id="Line_24" data-name="Line 24" class="cls-3" y2="111.28" transform="translate(608.386 702.609)"/>
+    <line id="Line_25" data-name="Line 25" class="cls-3" y2="111.28" transform="translate(633.566 702.609)"/>
+    <line id="Line_26" data-name="Line 26" class="cls-3" y2="111.28" transform="translate(709.919 702.609)"/>
+    <line id="Line_27" data-name="Line 27" class="cls-3" x1="49.548" transform="translate(584.018 760.28)"/>
+    <line id="Line_28" data-name="Line 28" class="cls-3" x1="49.548" transform="translate(584.018 732.663)"/>
+    <line id="Line_29" data-name="Line 29" class="cls-3" x1="48.736" transform="translate(584.018 787.897)"/>
+    <path id="Path_99" data-name="Path 99" class="cls-3" d="M424.576,295H254v22.743H595.151V295Z" transform="translate(158.63 184.236)"/>
+    <path id="Path_100" data-name="Path 100" class="cls-3" d="M455.8,501H204v22.743H707.6V501Z" transform="translate(127.404 312.889)"/>
+    <line id="Line_30" data-name="Line 30" class="cls-3" y2="48.736" transform="translate(753.781 453.244)"/>
+    <line id="Line_31" data-name="Line 31" class="cls-3" y2="48.736" transform="translate(835.008 790.333)"/>
+    <line id="Line_32" data-name="Line 32" class="cls-3" y2="22.743" transform="translate(645.913 479.236)"/>
+    <path id="Path_101" data-name="Path 101" class="cls-4" d="M751.574,437.338,631.359,309H355.189L234.974,437.338s-50.36,50.36-90.974,0c0,0,13,50.36,86.1,43.862v29.241H756.448V481.2c73.1,6.5,86.1-43.862,86.1-43.862C801.934,487.7,751.574,437.338,751.574,437.338Z" transform="translate(89.932 192.979)"/>
+    <line id="Line_33" data-name="Line 33" class="cls-3" y2="22.743" transform="translate(671.418 813.889)"/>
+    <path id="Path_102" data-name="Path 102" class="cls-4" d="M989.338,653.085c-97.472-61.732-212-138.085-212-138.085H387.45s-114.529,76.353-212,138.085S0,653.085,0,653.085c29.242,56.859,115.342,53.609,115.342,53.609v25.992h934.1V706.695s86.1,3.249,115.342-53.609C1164.787,653.085,1086.81,714.817,989.338,653.085Z" transform="translate(0 321.632)"/>
+    <line id="Line_34" data-name="Line 34" class="cls-3" x2="37.364" transform="translate(564.524 84.476)"/>
+    <line id="Line_35" data-name="Line 35" class="cls-3" x2="37.364" transform="translate(564.524 66.606)"/>
+    <line id="Line_36" data-name="Line 36" class="cls-3" x2="37.364" transform="translate(564.524 48.736)"/>
+    <line id="Line_37" data-name="Line 37" class="cls-3" x2="37.364" transform="translate(564.524 30.866)"/>
+    <line id="Line_38" data-name="Line 38" class="cls-3" y2="116.154" transform="translate(583.206)"/>
+    <line id="Line_39" data-name="Line 39" class="cls-3" x1="35.74" transform="translate(584.83 398.01)"/>
+    <line id="Line_40" data-name="Line 40" class="cls-3" x1="37.364" transform="translate(583.206 425.627)"/>
+    <line id="Line_41" data-name="Line 41" class="cls-3" y2="48.736" transform="translate(331.404 790.333)"/>
+    <line id="Line_42" data-name="Line 42" class="cls-3" y2="48.736" transform="translate(412.63 453.244)"/>
+    <line id="Line_43" data-name="Line 43" class="cls-3" y2="111.28" transform="translate(456.493 702.609)"/>
+  </g>
+</svg>

@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1 {
+  font-size: 2.5em; }
+
+body {
+  background-color: #D1C4CB;
+  color: #fff; }
+
+#barba-wrapper, .barba-container {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.mywrapper {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding: 2em;
+  margin: 0; }
+
+#lanback_l {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  width: calc(100%/9);
+  height: auto;
+  z-index: -2; }
+
+#lanback_r {
+  position: absolute;
+  top: -30%;
+  left: 60%;
+  width: calc(100%/8);
+  height: auto;
+  z-index: -2; }
+
+#lanfront_l {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: calc(100%/7);
+  height: auto;
+  z-index: -1; }
+
+#lanfront_r {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  width: calc(100%/6);
+  height: auto;
+  z-index: -1; }
+
+.xlbtn {
+  color: #fff;
+  background-color: #FFCD6E;
+  border: none;
+  border-radius: 1.5em;
+  font-size: 3em;
+  padding: 0.2em 1em; }
+  .xlbtn:hover {
+    background-color: #B02C51; }
+  .xlbtn:active {
+    background-color: #F15959; }
+
+#startbtn {
+  position: absolute;
+  top: 50%;
+  left: 40%; }
+
+#pickcream, #pickred, #pickblack {
+  width: 100%;
+  height: auto;
+  padding: 5%;
+  box-sizing: border-box; }
+
+.btn {
+  color: #fff;
+  background-color: #FFCD6E;
+  border: none;
+  border-radius: 1em;
+  font-size: 1.5em;
+  padding: 0.1em 0.5em; }
+  .btn:hover {
+    background-color: #B02C51; }
+  .btn:active {
+    background-color: #F15959; }
+
+#pickshiba {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  box-sizing: border-box; }
+  #pickshiba img {
+    margin: 15%; }
+
+#gamebg {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  right: -35%; }
+
+#progress {
+  position: absolute;
+  top: 0;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  z-index: -1; }
+  #progress img {
+    padding: 1em;
+    width: 3em;
+    height: auto; }
+
+#shiba {
+  width: 15%;
+  height: auto;
+  z-index: 1;
+  position: absolute;
+  top: 30%;
+  right: 30%; }
+  #shiba img {
+    transition: 1s; }
+
+#trivia {
+  position: absolute;
+  top: 40%;
+  left: 10%; }
+
+.flower {
+  opacity: 0.5;
+  transition: 0.7s; }
+
+#lost, #won, #resultbuttondiv {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: 0.7s;
+  z-index: 1;
+  visibility: hidden; }
+
+#game {
+  transition: 0.7s; }
+
+/*# sourceMappingURL=style.css.map */

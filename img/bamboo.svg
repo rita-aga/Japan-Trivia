@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2837 1840 226.5 300.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #16915c;
+      }
+
+      .cls-2 {
+        fill: #91ea7f;
+      }
+    </style>
+  </defs>
+  <g id="bamboo_1_" transform="translate(2837 1840)">
+    <rect id="Rectangle_17" data-name="Rectangle 17" class="cls-1" width="30" height="300" transform="translate(72.7)"/>
+    <rect id="Rectangle_18" data-name="Rectangle 18" class="cls-2" width="30" height="100" transform="translate(72.7 100)"/>
+    <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-2" width="30" height="300" transform="translate(125.7 0.5)"/>
+    <rect id="Rectangle_20" data-name="Rectangle 20" class="cls-1" width="30" height="100" transform="translate(125.7 100.5)"/>
+    <path id="Path_187" data-name="Path 187" class="cls-1" d="M36.9,143c14.2,15.8,14.6,38.7,14.6,38.7s-22.7-2.8-36.9-18.6S0,124.3,0,124.3,22.7,127.2,36.9,143Z"/>
+    <path id="Path_188" data-name="Path 188" class="cls-1" d="M189.6,40C175.4,55.8,175,78.7,175,78.7s22.7-2.8,36.9-18.6,14.6-38.7,14.6-38.7S203.8,24.2,189.6,40Z"/>
+  </g>
+</svg>

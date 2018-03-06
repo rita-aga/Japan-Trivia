@@ -1,0 +1,168 @@
+body {
+    background-color: $neutral;
+    color: $text;
+}
+
+#barba-wrapper, .barba-container {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.mywrapper {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 2em;
+    margin: 0;
+}
+
+#lanback_l {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: calc(100%/9);
+    height: auto;
+    z-index: -2;
+
+}
+
+#lanback_r {
+    position: absolute;
+    top: -30%;
+    left: 60%;
+    width: calc(100%/8);
+    height: auto;
+    z-index: -2;
+}
+
+#lanfront_l {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: calc(100%/7);
+    height: auto;
+    z-index: -1;
+}
+
+#lanfront_r {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width: calc(100%/6);
+    height: auto;
+    z-index: -1;
+}
+
+.xlbtn {
+    color: $text;
+    background-color: $button;
+    border: none;
+    border-radius: 1.5em;
+    font-size: 3em;
+    padding: 0.2em 1em;
+    &:hover {
+     background-color: $btnhover;
+    }
+    &:active {
+        background-color: $btnactive;
+    }
+}
+
+#startbtn {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+#pickcream, #pickred, #pickblack {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    box-sizing: border-box;
+
+}
+
+.btn {
+    color: $text;
+    background-color: $button;
+    border: none;
+    border-radius: 1em;
+    font-size: 1.5em;
+    padding: 0.1em 0.5em;
+    &:hover {
+     background-color: $btnhover;
+    }
+    &:active {
+        background-color: $btnactive;
+    }
+}
+
+#pickshiba {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    img {
+       margin: 15%; 
+    }
+    box-sizing: border-box;
+}
+
+#gamebg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    right: -35%;
+
+}
+
+#progress {
+    position: absolute;
+    top: 0;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    img {
+        padding: 1em;
+        width: 3em;
+        height: auto;
+    }
+    z-index: -1;
+}
+
+#shiba {
+    width:15%;
+    height: auto;
+    z-index: 1;
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    img {
+        transition: 1s;
+    }
+
+}
+
+#trivia {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.flower {
+    opacity: 0.5;
+    transition: 0.7s;
+}
+
+#lost, #won, #resultbuttondiv {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 0.7s;
+    z-index: 1;
+    visibility: hidden;
+}
+
+#game {
+    transition: 0.7s;
+}
