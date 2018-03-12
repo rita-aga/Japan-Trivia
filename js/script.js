@@ -3,14 +3,17 @@ function storeColor() {
     
     document.getElementById("pickcream").addEventListener("click", function(){
     sessionStorage.setItem("color", "cream");
+    sessionStorage.setItem("name", "Momo");
 })
     document.getElementById("pickred").addEventListener("click", function(){
     sessionStorage.setItem("color", "red");
+    sessionStorage.setItem("name", "Tsune");
 })
     document.getElementById("pickblack").addEventListener("click", function(){
     sessionStorage.setItem("color", "black");
+    sessionStorage.setItem("name", "Kuro");
 })
-};
+}
 
 function skipName() {
     var links = document.getElementsByTagName("a");
@@ -18,15 +21,15 @@ function skipName() {
     for (var i = 0; i < links.length; i+= 1) {
         links[i].href = "game.html";
     }
-};
-};
+}
+}
 
 
 // Fire functions for select player page
 if (window.location.href.indexOf("selectplayer.html") != -1) {
     storeColor();
     skipName();
-};
+}
 
 
 
@@ -45,8 +48,8 @@ if (userTime < 12) {
 
 // Greet at front page at front page 
 function greetMe() {
-    document.getElementById("greeting").innerHTML = greetWord + ', my name is Tsune!<br>And you are?';
-};
+    document.getElementById("greeting").innerHTML = greetWord + ', my name is ' + sessionStorage.getItem("name") + '!<br>And you are?';
+}
 
 // Remember and display user's name
 function storeName() {
@@ -57,15 +60,15 @@ function storeName() {
         sessionStorage.setItem("user", userName.value);
       });
     
-};
+}
 
 // Replace default color with chosen color
 function getShiba() {
     var neutralShiba = document.getElementsByClassName("character");
     for (var i = 0; i < neutralShiba.length; i+= 1) {
         neutralShiba[i].src = "img/shiba/" + sessionStorage.getItem("color") + "_neutral.svg";
-};
-};
+}
+}
 
 // Fire functions for front page
 window.onload = function(){
@@ -73,18 +76,18 @@ if (window.location.href.indexOf("hello.html") != -1) {
     greetMe();
     storeName();
     getShiba();
-};
-};
+}
+}
 
 // Show greeting with name
 function letsBegin(){
     document.getElementById("nicetomeet").innerHTML = "Nice to meet you, " + sessionStorage.getItem("user") + "!<br>Let's begin!";
-};
+}
 
 // Fire functions for greet page
 if (window.location.href.indexOf("hello02.html") != -1) {
     letsBegin();
-};
+}
 
 // Trivia page
 function triviaPage() {
@@ -97,19 +100,19 @@ var trivia = document.getElementById("triviaform");
 function correctFlower() {
     var flower = document.getElementById(f);
     flower.src="img/right.svg"; 
-};
+}
 
 function wrongFlower() {
     var flower = document.getElementById(f);
     flower.src="img/wrong.svg";
-};
+}
 
 function activeFlower() {
     var flower = document.getElementById(f);
     if (flower !== null) {
     flower.style.opacity = "1";
     }
-};
+}
 
 // Define changes in shiba
 var shiba = document.getElementById("shibaplayer");
@@ -117,12 +120,12 @@ var shiba = document.getElementById("shibaplayer");
 function happyShiba() {
     shiba.src = "img/shiba/" + sessionStorage.getItem("color") + "_smile.svg";
     //setTimeout(shiba.src="img/shiba/red_neutral.svg", 3000);
-};
+}
 
 function sadShiba() {
     shiba.src = "img/shiba/" + sessionStorage.getItem("color") + "_cry.svg";
     //setTimeout(shiba.src="img/shiba/red_neutral.svg", 3000);
-};
+}
 
 // Trivia questions
 var questions = [
@@ -155,7 +158,7 @@ var answers = [
 var a=0;
 function displayQuestion() {
     document.getElementById("triviaquest").innerHTML = questions[a];
-};
+}
 
 // Count mistakes
 var m = 0;
@@ -199,8 +202,8 @@ function checkAnswer() {
         seeResult();
     } 
 
-};
-};
+}
+}
 
 // Fire functions for the game
 activeFlower();
@@ -216,10 +219,12 @@ function seeResult() {
     } else {
         document.getElementById("game").style.opacity = "0";
         document.getElementById("lost").style.visibility = "visible";
-        document.getElementById("lost").style.opacity = "1";
+        document.getElementById("lostmessage").innerHTML = sessionStorage.getItem("name") + " is a bit upset about this, but you can try again!";
+        document.getElementById("shibalost").src = "img/shiba/" + sessionStorage.getItem("color") + "_cry.svg";
+        document.getElementById("lost").style.opacity = "1";      
     }
-};
-};
+}
+}
 
 // Fire all functions for trivia page
 if (window.location.href.indexOf("game.html") != -1) {

@@ -1,22 +1,39 @@
 body {
     background-color: $neutral;
     color: $text;
+    overflow: hidden;
+    text-align: center;
 }
 
 #barba-wrapper, .barba-container {
     box-sizing: border-box;
-    margin: 0;
+    
     padding: 0;
     
 }
 
+h1, h2, h3, form, input, button {
+    margin: 0.5em;
+}
+
+// Main container
 .mywrapper {
+    background: url(../img/origami.svg) no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto; 
+    margin-left: auto;
     width: 100%;
     height: 100vh;
     text-align: center;
     padding: 2em;
     margin: 0;
+    box-sizing: border-box;
 }
+
+// Index page
 
 #lanback_l {
     position: absolute;
@@ -56,6 +73,7 @@ body {
 }
 
 .xlbtn {
+    margin: auto;
     color: $text;
     background-color: $button;
     border: none;
@@ -71,10 +89,10 @@ body {
 }
 
 #startbtn {
-    position: absolute;
-    top: 50%;
-    left: 40%;
+display: inline-block;
 }
+
+// Select player page
 
 #pickcream, #pickred, #pickblack {
     width: 100%;
@@ -83,20 +101,32 @@ body {
     box-sizing: border-box;
 
 }
+.character {
+    height: 350px;
+    width: auto;
+    margin: 2em;
+}
 
-.btn {
+.btn, input[type=submit] {
     color: $text;
     background-color: $button;
     border: none;
     border-radius: 1em;
     font-size: 1.5em;
-    padding: 0.1em 0.5em;
+    padding: 0.2em 0.7em;
     &:hover {
      background-color: $btnhover;
     }
     &:active {
         background-color: $btnactive;
     }
+}
+
+input[type=text] {
+    border-radius: 1em;
+    font-size: 1.5em;
+    padding: 0.2em 0.7em;
+    border: $border;
 }
 
 #pickshiba {
@@ -108,35 +138,43 @@ body {
     box-sizing: border-box;
 }
 
-#gamebg {
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    right: -35%;
+// Hello
+#bamboo {
+    display: inline;
+}
 
+// Trivia layout
+
+#game { 
+    display: grid;
+    height: 100vh;
+    transition: 0.7s;
+    
+    box-sizing: border-box;
+    .gamemain {
+        margin: auto;
+    }
 }
 
 #progress {
-    position: absolute;
-    top: 0;
-    width: 1000px;
+    width: 80vh;
+    margin: auto; 
     display: flex;
     flex-direction: row;
     img {
-        padding: 1em;
-        width: 3em;
+        padding: 0.5em;
+        width: 2.5em;
         height: auto;
+    
     }
-    z-index: -1;
+    z-index: 0;
 }
 
 #shiba {
-    width:15%;
+    display: inline-block;
+    width:30%;
     height: auto;
-    z-index: 1;
-    position: absolute;
-    top: 30%;
-    right: 30%;
+    z-index: 1; 
     img {
         transition: 1s;
     }
@@ -144,9 +182,12 @@ body {
 }
 
 #trivia {
-    position: absolute;
-    top: 40%;
-    left: 10%;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: auto; 
+    
 }
 
 .flower {
@@ -155,14 +196,22 @@ body {
 }
 
 #lost, #won, #resultbuttondiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: absolute;
-    top: 0;
     opacity: 0;
+    width: 100%;
+    height: 100vh;
     transition: 0.7s;
     z-index: 1;
     visibility: hidden;
 }
 
-#game {
-    transition: 0.7s;
+#sadpeek {
+    position: absolute;
+    bottom: -60vh;
+    width: 18em;
+    height: auto;
 }
+
